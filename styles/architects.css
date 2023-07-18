@@ -1,0 +1,43 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* header related styles */
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+}
+#nav-buttons>ul{
+    list-style:none;
+    display:flex;
+}
+#intro ,#intro-paragraph{
+    justify-content:center;
+}
+#intro-header{
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+#intro-paragraph{
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width:868px;
+    height: 52px;
+    /* margin:0px 550px 53px 550px; */
+    justify-content: center;
+}
+#intro-banner{
+    border-radius: 8px;
+    /* padding:240px; */
+
+}
